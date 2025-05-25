@@ -109,9 +109,15 @@ const API_SITES = {
         api: 'https://ikunzyapi.com/api.php/provide/vod',
         name: 'iKun资源'
     },
-        senlin: {
+  senlin: {
         api: 'https://slapibf.com/api.php/provide/vod',
         name: '森林资源'
+        adult: true
+    },
+    ckzy: {
+        api: 'https://ckzy.me/api.php/provide/vod',
+        name: 'CK资源'
+        adult: true
     },
     testSource: {
         api: 'https://www.example.com/api.php/provide/vod',
