@@ -13,7 +13,7 @@ const PASSWORD_CONFIG = {
 // 网站信息配置
 const SITE_CONFIG = {
     name: 'LibreTV',
-    url: 'https://libretv.is-an.org',
+    url: 'https://tv.bz3di.com',
     description: '免费在线视频搜索与观看平台',
     logo: 'image/logo.png',
     version: '1.0.3'
@@ -108,6 +108,10 @@ const API_SITES = {
     ikun: {
         api: 'https://ikunzyapi.com/api.php/provide/vod',
         name: 'iKun资源'
+    },
+        senlin: {
+        api: 'https://slapibf.com/api.php/provide/vod',
+        name: '森林资源'
     },
     testSource: {
         api: 'https://www.example.com/api.php/provide/vod',
